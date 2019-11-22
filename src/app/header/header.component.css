@@ -1,0 +1,12 @@
+mat-toolbar {
+  background-color: #333333;
+}
+
+.toolbar-item {
+  color: white;
+  text-decoration: none;
+}
+
+.right-margin {
+  margin: 0px 20px 0px 0px;
+}
