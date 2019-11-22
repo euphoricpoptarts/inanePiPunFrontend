@@ -1,5 +1,14 @@
 import { Component } from '@angular/core';
 
+export interface Computation {
+  start: string;
+  startDate: Date;
+  digitPos: number;
+  result: string;
+  time: string;
+}
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
