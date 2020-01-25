@@ -35,6 +35,14 @@ export class SegmentsInComputationComponent implements OnInit {
     return this.http.get<Segment[]>("https://inanepipun.com/api/getSegmentsForComputation/" + computation);
   }
 
+  filterByUuid(uuid: string) {
+    if (this.source.filter === uuid) {
+      this.source.filter = null;
+    } else {
+      this.source.filter = uuid;
+    }
+  }
+
   ngOnInit() {
     this.getData(this.route.snapshot.paramMap.get('computation')).subscribe(data => {
       this.source = new MatTableDataSource(data);
