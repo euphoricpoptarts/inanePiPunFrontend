@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~8.0.3",
     "@angular/router": "~8.0.3",
     "@types/big-integer": "0.0.31",
-    "acorn": "^7.1.0",
+    "acorn": "^7.1.1",
     "big-integer": "^1.6.44",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.2",
